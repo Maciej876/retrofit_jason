@@ -2,7 +2,7 @@ package com.example.jason;
 
 import com.google.gson.annotations.SerializedName;
 
-public class pytanie {
+public class Pytanie {
     @SerializedName("tresc")
     private String trescPytania;
     private String odpa;
@@ -10,7 +10,7 @@ public class pytanie {
     private String odpc;
     private int poprawna;
 
-    public pytanie(String trescPytania, int poprawna, String odpc, String odpb, String odpa) {
+    public Pytanie(String trescPytania, int poprawna, String odpc, String odpb, String odpa) {
         this.trescPytania = trescPytania;
         this.poprawna = poprawna;
         this.odpc = odpc;
